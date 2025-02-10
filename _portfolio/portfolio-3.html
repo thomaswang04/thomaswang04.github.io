@@ -1,9 +1,55 @@
 ---
-title: "Portfolio item number 3"
-excerpt: "Short description of portfolio item number 3 <br/><img src='/images/500x300.png'>"
+title: "Red Bull F1 Racing Wheel"
+excerpt: "A custom formula-style racing wheel with screen, buttons, and lights <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        h1 {
+            margin: 20px 0 10px 0;
+            color: #222;
+        }
+        h2 {
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
 
-<iframe src="https://gmail4817650.autodesk360.com/shares/public/SH30dd5QT870c25f12fc8d31d29e255fba2e?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<div class="container">
+
+    <p>This is an item in your portfolio. It can have images or nice text. If you name the file <code>.md</code>, it will be parsed as markdown. If you name the file <code>.html</code>, it will be parsed as HTML.</p>
+
+    <h2>3D Model Viewer</h2>
+    <iframe src="https://gmail4817650.autodesk360.com/shares/public/SH30dd5QT870c25f12fc8d31d29e255fba2e?mode=embed" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+
+</div>
+
+</body>
+</html>
